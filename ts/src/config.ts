@@ -11,7 +11,7 @@ export const PERMANENT_CLEANUP_INTERVAL_MS = 10 * 1000; // tslint:disable-line c
 // Max number of entities per page
 export const MAX_PER_PAGE = 1000;
 // Default network id to use when not specified
-export const NETWORK_ID = !_.isUndefined(process.env.NETWORK_ID) ? _.parseInt(process.env.NETWORK_ID) : 4;
+export const NETWORK_ID = !_.isUndefined(process.env.NETWORK_ID) ? _.parseInt(process.env.NETWORK_ID) : 1;
 // The fee recipient for orders
 export const FEE_RECIPIENT = !_.isUndefined(process.env.FEE_RECIPIENT)
     ? process.env.FEE_RECIPIENT
